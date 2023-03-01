@@ -1,0 +1,1 @@
+curl -XPUT http://192.168.88.166:9200/_settings?pretty -d '{ "index": { "number_of_replicas": 0 } }' -H "Content-Type: application/json"
